@@ -15,13 +15,21 @@ html {
 
 /* ---------------Global Styles----------------- */
 
+/* Color Palette
+  #3D5FFF
+  #3885E8
+  #4AC8FF
+  #38E2E8
+  #3DFFD0
+*/
+
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin:0;
 }
 
 header.primary {
-    background-color:#19F2F5;
+    background-color:#3D5FFF;
     text-align:center;
     color:#ffffff;
     padding:40px;
