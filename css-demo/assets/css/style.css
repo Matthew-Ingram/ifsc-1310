@@ -13,6 +13,13 @@ html {
     box-sizing: inherit;
   }
 
+/* ---------------Utility Classes----------------- */
+
+.container{
+  width:70vw;
+  margin:40px auto;
+}
+
 /* ---------------Global Styles----------------- */
 
 /* Color Palette
@@ -62,12 +69,17 @@ header.primary h2{
 }
 
 header.primary nav{
-
+    width:80vw;
+    margin:0 auto;
+    max-width:900px;
 }
 
 header.primary nav ul{
-    /*removes extra space fro list item attachments*/
+    /*removes extra space from list item attachments*/
     padding:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
 }
 
 header.primary nav ul li{
@@ -77,8 +89,38 @@ header.primary nav ul li{
 header.primary nav ul li a{
     color:#ffffff;
     text-decoration:none;
-    background-color:#000000;
+    background-color:rgba(0,0,0,0.5);
     padding:8px 16px;
-    margin-bottom:1rem;
-    display:inline-block;  color:#ffffff;
+    display:inline-block;
+    border-radius:10px;
+    transition:0.5s;
+}
+
+header.primary nav a:hover{
+  background-color:rgba(0,0,0,0.75);
+}
+
+#intro {
+  border-bottom: 1px dotted #000000;
+  padding-bottom:1.2rem;
+}
+
+#intro h2{
+  color:#3b638b;
+  border-bottom: 1px dotted #000000;
+}
+
+@media screen and (max-width:600px){
+
+    header.primary nav ul{
+      flex-direction:column;
+    }
+
+    header.primary nav a{
+      display:block;
+    }
+    
+    header.primary nav li{
+      margin-bottom:10px;
+    }
 }
