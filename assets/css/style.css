@@ -1,0 +1,44 @@
+/*
+Stylesheet for course homepage
+*/
+
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/* ---------------Utility Classes----------------- */
+
+.container{
+  width:70vw;
+  margin:40px auto;
+}
+
+/* ---------------Global Styles----------------- */
+
+/* Color Palette
+  #3D5FFF
+  #3885E8
+  #4AC8FF
+  #38E2E8
+  #3DFFD0
+*/
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+}
+
+h1 {
+    background-color:#3D5FFF;
+    text-align:center;
+    color:#ffffff;
+    padding:20px;
+    text-shadow: 0 2px rgba(0,0,0,0.8);
+}
