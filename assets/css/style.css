@@ -20,6 +20,10 @@ html {
   margin:40px auto;
 }
 
+img{
+  max-width:100%;
+}
+
 /* ---------------Global Styles----------------- */
 
 /* Color Palette
@@ -41,4 +45,15 @@ h1 {
     color:#ffffff;
     padding:20px;
     text-shadow: 0 2px rgba(0,0,0,0.8);
+}
+
+figure{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+figure img{
+  box-shadow:0 2px 4px rgba(0,0,0,0.8);
+  width:80%;
 }
