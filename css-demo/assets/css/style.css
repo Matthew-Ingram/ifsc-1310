@@ -16,12 +16,33 @@ html {
 /* ---------------Utility Classes----------------- */
 
 .container{
-  width:70vw;
+  width:80vw;
   margin:40px auto;
 }
 
 img{
   max-width:100%;
+}
+
+.img-right{
+  float:right;
+  margin-left:20px;
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
+
+.img-left{
+  float:left;
+  margin-right:20px;
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
+
+.img-center{
+  display:block;
+  margin:20px auto;
+  border:2px solid #c0c0c0;
+  padding:5px;
 }
 
 /* ---------------Global Styles----------------- */
@@ -118,6 +139,8 @@ header.primary nav a:hover{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
+  border-bottom:1px dotted #c0c0c0;
+  padding-bottom:2.8rem;
 }
 
 #content article.post{
@@ -194,6 +217,106 @@ article.widget footer{
   color:#fff;
   font-size:.8rem;
   text-transform:uppercase;
+}
+
+#additional-elements h2{
+  color:#3D5FFF;
+  border-bottom:1px dotted #c0c0c0;
+}
+
+#additional-elements a{
+  color:#3D5FFF;
+}
+
+#additional-elements a:hover{
+  text-decoration:none;
+}
+
+#additional-elements h3{
+  border-left:8px solid #3D5FFF;
+  padding:10px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  border:1px solid #c0c0c0;
+}
+
+tr{
+
+}
+
+tr:nth-child(even){
+  background-color:rgba(0,0,0,.1) 
+}
+
+td:hover{
+  background-color:rgba(0,0,0,.3)
+}
+
+th{
+  background:#172635;
+  color:#fff;
+  width:33%;
+  padding:10px;
+}
+
+td{
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
+
+table caption{
+  color:#3b638b;
+  padding:10px;
+  font-weight:bold;
+  font-size:1.4rem;
+}
+
+#additional-elements ol{
+  list-style-type:upper-roman;
+  list-style-position:outside;
+}
+
+#additional-elements ul{
+  list-style-type:square;
+}
+
+#additional-elements ul ul{
+  list-style-type:disc;
+}
+
+dl{
+
+}
+
+dt{
+  font-weight:bold;
+}
+
+dd{
+margin-left:0;
+}
+
+dd + dt{
+  margin-top:1rem;
+}
+
+#additional-elements blockquote{
+  background-color:rgba(0,0,0,.15);
+  padding:30px 40px;
+  border:5px double #c0c0c0;
+  border-radius:15px;
+  font-size:1.2rem;
+}
+
+#additional-elements cite{
+  display:block;
+  font-size:.6rem;
+  text-align:right;
+  font-weight:bold;
+  margin-top:1.2rem;
 }
 
 @media screen and (max-width:600px){
