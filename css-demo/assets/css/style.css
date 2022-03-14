@@ -249,6 +249,7 @@ article.widget footer{
 }
 
 #additional-elements h3{
+  display:inline-block;
   border-left:7px solid #3885E8;
   padding:0 0 0 1.2rem;
   border-bottom:1px dotted #c0c0c0;
