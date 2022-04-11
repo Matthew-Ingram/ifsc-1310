@@ -1,0 +1,35 @@
+/* Stylesheet for SpaceX Dragon */
+
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/* ---------------Utility Classes----------------- */
+
+.container{
+  width:70vw;
+  margin:30px auto;
+}
+
+img{
+  max-width:100%;
+}
+
+/* ---------------Global Styles----------------- */
+
+/* Color Palette
+  #???
+  #???
+  #???
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
