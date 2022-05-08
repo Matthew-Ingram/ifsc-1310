@@ -5,49 +5,71 @@ Stylesheet for course homepage
 /* ---------------Box Sizing----------------- */
 
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 /* ---------------Utility Classes----------------- */
 
-.container{
-  width:70vw;
-  margin:40px auto;
+.container {
+  width: 80vw;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
 }
 
-img{
-  max-width:100%;
+img {
+  max-width: 100%;
 }
 
 /* ---------------Global Styles----------------- */
 
 /* Color Palette
-  #3D5FFF
-  #3885E8
-  #4AC8FF
-  #38E2E8
-  #3DFFD0
+  #5577cc
+  #223366
+  #112244
+  #081122
 */
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    margin:0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #081122;
+  margin: 0;
+}
+
+a {
+  color: #5577cc;
+}
+
+p {
+  margin: 20px;
+}
+
+h2 {
+  margin: 20px;
+  border-bottom: 4px double #000000;
+}
+
+nav {
+  padding: 20px 0 0;
+}
+
+li {
+  margin: 5px 0;
 }
 
 h1 {
-    background-color:#3D5FFF;
-    text-align:center;
-    color:#ffffff;
-    padding:20px;
-    text-shadow: 0 2px 4px #000000;
-}
-
-figure img{
-  box-shadow:0 2px 4px rgba(0,0,0,0.8);
-  width:50%;
+  background-color: #5577cc;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  margin: -20px -20px 0;
+  text-shadow: 0 2px 4px #000000;
+  border-radius: 20px 20px 0 0;
 }
