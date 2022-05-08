@@ -130,7 +130,12 @@ section#content {
   transition: 0.6s;
   border-radius: 15px;
   background: #ffffff;
-  margin: 4em auto;
+  margin: 5em auto;
+}
+
+section#content img {
+  display: block;
+  margin: 1.5em auto 0;
 }
 
 section#content h2 {
@@ -161,12 +166,13 @@ section#articles.container {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 0 0 4em 0;
+  padding: 0 0 5em 0;
   margin-bottom: 0;
 }
 
 section#articles h2,
 #content h2 {
+  margin: 1em;
   flex: 0 0 100%;
   color: #5577cc;
   text-align: center;
@@ -256,7 +262,7 @@ table {
   background-color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
   transition: 0.5s;
-  margin: 0 auto 4em;
+  margin: 0 auto 5em;
 }
 
 table:hover {
@@ -298,7 +304,7 @@ table caption {
 
 .slideshow {
   width: 500px;
-  margin: 4em auto;
+  margin: 5em auto;
   padding: 1.5em;
   background-color: #ffffff;
   border-radius: 15px;
